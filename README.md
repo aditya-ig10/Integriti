@@ -1,10 +1,63 @@
-# Integriti: AI-Driven National Security Defense Platform
+# Integriti - AI-Driven National Security Defense Platform
 
-## Project Overview
+## Virtual Environment Setup
+
+A Python virtual environment has been created for the Integriti project.
+
+### Activation
+```bash
+# Activate the virtual environment
+source integriti_env/bin/activate
+
+# Deactivate when done
+deactivate
+```
+
+### Install Dependencies
+```bash
+# Install project dependencies
+pip install -r requirements.txt
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+```
+
+## Project Documentation
+
+All detailed documentation has been organized in the `docs/` folder:
+
+- **[Development Roadmap](docs/ROADMAP.md)** - 48-week implementation plan
+- **[Implementation Guide](docs/PROMPTS_GUIDE.md)** - Step-by-step prompts
+- **[Technical Specifications](docs/TECHNICAL_SPECS.md)** - Architecture details
+- **[Implementation Checklist](docs/IMPLEMENTATION_CHECKLIST.md)** - Task tracking
+- **[Project Structure](docs/PROJECT_STRUCTURE.md)** - Code organization
+
+## Quick Start
+
+1. **Activate Environment**
+   ```bash
+   source integriti_env/bin/activate
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Start Development**
+   ```bash
+   # Run local development environment
+   docker-compose up -d
+   
+   # Start the API server
+   python src/main.py
+   ```
+
+## What is Integriti?
 
 **Integriti** is a comprehensive multi-layered technical and policy framework designed to detect, analyze, and mitigate the misuse of Large Language Models (LLMs) in hostile information operations. The platform combines cutting-edge AI, machine learning, and cyber defense methodologies to protect democratic institutions from AI-driven malign information campaigns.
 
-## What is Integriti?
+## Core Capabilities
 
 Integriti serves as a national security defense platform that:
 
@@ -13,8 +66,6 @@ Integriti serves as a national security defense platform that:
 - **Analyzes** disinformation propagation patterns using graph-based intelligence
 - **Mitigates** threats through automated response systems and intelligence sharing
 - **Protects** democratic institutions from state-sponsored and criminal information warfare
-
-## Core Capabilities
 
 ### 🔍 Real-Time Detection Engine
 Advanced transformer-based classifiers that identify AI-generated content with >90% accuracy across text and multimedia formats.
