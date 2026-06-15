@@ -1,4 +1,4 @@
-# Integriti - AI-Driven National Security Defense Platform
+# Integriti - AI-Driven Security Defense Platform
 
 ## Virtual Environment Setup
 
@@ -87,7 +87,7 @@ Built-in privacy protection using federated learning and differential privacy te
 
 ## Target Users
 
-- National Security Agencies
+- Security Agencies
 - Cyber Defense Teams
 - Intelligence Communities
 - Democratic Institution Protectors
