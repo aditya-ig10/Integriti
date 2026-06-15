@@ -26,10 +26,7 @@ pip install -r requirements-dev.txt
 
 All detailed documentation has been organized in the `docs/` folder:
 
-- **[Development Roadmap](docs/ROADMAP.md)** - 48-week implementation plan
-- **[Implementation Guide](docs/PROMPTS_GUIDE.md)** - Step-by-step prompts
 - **[Technical Specifications](docs/TECHNICAL_SPECS.md)** - Architecture details
-- **[Implementation Checklist](docs/IMPLEMENTATION_CHECKLIST.md)** - Task tracking
 - **[Project Structure](docs/PROJECT_STRUCTURE.md)** - Code organization
 
 ## Quick Start
